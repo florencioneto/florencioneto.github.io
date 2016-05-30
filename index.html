@@ -4,14 +4,39 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE-Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- As 3 tags META acima devem sempre vir antes das outras. -->
     <title>Meu Site</title>
+    <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Folha de estílos própria. -->
+    <link href="cover.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1 class="text-center">Em construção...</h1>
-        <p class="text-center">Novidades em breve!</p>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Florêncio Neto <small>Desenvolvedor web</small></h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Sobre</a></li>
+                  <li><a href="#">Portfólio</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="inner cover">
+            <h1 class="cover-heading">Em construção...</h1>
+            <p class="lead">Novidades em breve!</p>
+          </div>
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Sendo projetado e construído com <a href="http://getbootstrap.com">Bootstrap</a>, por <a href="https://twitter.com/florencioneto">@florencioneto</a>.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
